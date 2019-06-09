@@ -1,0 +1,254 @@
+.btn {
+	border-radius: 0;
+}
+.carousel .item {
+	height: 500px;
+	background-color: #777;
+}
+
+.top_overlay{
+	height: 100%;
+	width: 100%;
+	background-image: url(../img/top_bg_glow.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	background-position: top center;
+	border: none;
+	top: 0;
+	z-index: -1;
+}
+
+.top_banner {
+	font-family: "Harabara", Arial, sans-serif;
+	text-shadow: rgba(0, 0 ,0 , .6) 1px 2px;
+	font-size: 22px;
+	color: #fff;
+	padding: 100px 0 85px 0;
+	min-height: 318px;
+	position: relative;
+	background-image: url(../img/top_bg_2.png)
+}
+
+body {
+	padding: 117px 0 0 0;
+	background-color: #202A30;
+}
+
+header{
+	color: #fff;
+	border: none;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	background-color: #202A30;
+	height: 117px;
+	background-image: url(../img/top_mnu.png);
+}
+.logo {
+	margin-top: 28px;
+	display: block;
+}
+.mnu_top{
+	font-family: "Harabara", Arial, sens-serif
+	display: block;
+	float: left;
+
+}
+a {
+	color:#fbab37;
+}
+.mnu_top li {
+	float: left;
+	position: relative;
+}
+header .mnu_top li a {
+	background-image: url(../img/separate.png);
+	display: block;
+	padding: 72px 25px 18px 26px;
+	background-repeat: repeat-y;
+}
+.mnu_top li:last-child{
+	background-image: url(../img/separate.png);
+	background-repeat: repeat-y;
+	background-position: top right;
+}
+
+.mnu_top a{
+	color: #fff;
+	text-shadow: rgba(0, 0 ,0 , .6) 1px 2px;
+}
+.mnu_top a:active,
+.mnu_top li.active a {
+	color: #fbab37;
+}
+li {
+	list-style-type: none;
+}
+.mnu_top .top_hover {
+	position: absolute;
+	width: 0%;
+	height: 7px;
+	bottom:-7px;
+	left: 50%;
+	-webkit-transition: all .25s ease;
+	-moz-transition: all .25s ease;
+	-ms-transition: all .25s ease;
+	-o-transition: all .25s ease;
+	transition: all .25s ease;
+
+}
+.mnu_top li:hover a,
+.mnu_top li.active a {
+	color: #fbab37;
+	text-decoration: none;
+}
+.mnu_top li.active .top_hover,
+.mnu_top li:hover .top_hover {
+	width: 100%;
+	background-color: #FDAB37;
+	left: 0;
+}
+h2 {
+	color:#fbab37;
+	font-size: 48px;
+}
+.top_banner ul {
+	margin-top: 30px;
+	padding: 0;
+}
+
+.top_banner li {
+	border: transparent 2px solid;
+	margin: 0;
+	padding: 5px 5px 5px 30px;
+		color: #fff;
+	background-image: url(../img/check.png);
+	background-repeat: no-repeat;
+	background-position: 8px 11px;
+	cursor: default;
+	-webkit-transition: all .5s ease;transition: all .5s easetransition: all .5s eastransition: all .5s transition: all .5s ease;
+}
+.top_banner li:hover{
+	border: rgba(255 ,255 ,255, .14) 2px solid;
+}
+.header_photo {
+	position: absolute;
+	bottom: 0;
+	top: 78px;
+	right: 240px;
+	margin-bottom: 0;
+	margin-right: -200px;
+	/*padding-bottom: 0;*/
+}
+
+footer {
+	height: 170px;
+	background-image: url(../img/bottom_mnu.png);
+	margin: 0;
+	padding: 0;
+	/*display: block;*/
+	padding: 50px 0;
+}
+
+.footer_logo {
+	color:#4D5559;
+}
+.footer_nav {
+	color: #626E76;
+}
+footer .footer_nav ul {
+	display: block;
+	padding-bottom: 50px;
+	position: relative;
+}
+footer li {
+	position: relative;
+	float: left;
+
+}
+footer li a{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #626E76;
+	padding: 16px 30px 16px 30px;
+	border: transparent 2px ;
+	font-size: 19px;
+	display: block;
+}
+
+footer li a.active,
+footer li a:hover{
+	background-image: url(../img/slider_bg.png);
+	border: solid 2px solid;
+	border-radius: 5px;
+	box-shadow:  rgba(0, 0 ,0 , .6) 1px 2px;
+	color: #fff;
+}
+
+footer span.footer_text_logo {
+	font-family: "Arial", sans-serif;
+	font-size: 12px;
+}
+
+footer span.footer_text_logo {
+	font-size: 42px;
+	font-family: "Harabara", Arial, sans-serif;
+	font-weight: bold;
+}
+.hi_item img {
+	max-width: 100%;
+	font-size:  14px;
+	margin-bottom: 20px;
+	padding: 0px 20px 0px 20px;
+	/*max-width: : 220px;*/
+}
+
+.hi_item {
+	color: #050505;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+.center_mnu_list p{
+	color: #919191;
+	font-size: 14px;
+	font-family: Arial, sans-serif;
+}
+.mnu_center {
+	padding: 60px 22px 40px 22px;
+	height: 420px;
+	margin: 0;
+	display: block;
+	background-image: url(../img/center_mnu1.png);
+}
+.center_mnu_list span {
+	color: #fff;
+	font-size: 19px;
+	font-family: Arial, sans-serif;
+}
+.center_mnu_list{
+	padding: 30px 0 30px 0;
+	margin: 0;
+	width: 100%;
+	height: 320px;
+	background-image: url(../img/center_mnu.png);
+}
+.carousel .item {
+	height: 500px;
+	background-color: #777;
+}
+
+
+
+span.arrow_prev {
+	left: -60px;
+	background-position: left top;
+}
+span.arrow_next {
+	right: -60px;
+	top: 0;
+	background-position: right top;
+}
